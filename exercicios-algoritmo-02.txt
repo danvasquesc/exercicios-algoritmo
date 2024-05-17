@@ -1,0 +1,138 @@
+- Crie um algoritmo que receba um valor em metros e converta para centímetros.
+
+algoritmo "semnome"
+
+var
+   metros, resultado: real
+
+inicio
+      escreva("Me dê um valor em metros: ")
+      leia(metros)
+      
+      resultado <- (metros*100)
+      
+      escreva("A sua conversão de metros para centrímetros é: ",resultado)
+
+fimalgoritmo
+
+
+- Crie um algoritmo que pergunte quanto você ganha por hora e o número de horas que você trabalha por mês, o algoritmo deve calcular e mostrar qual seu salário naquele mês.
+
+algoritmo "semnome"
+
+var
+   ganhoH, horasS, horasM, salario: real
+
+inicio
+      escreva("Quanto você ganha por hora?: ")
+      leia(ganhoH)
+
+      escreva("Quantas horas você trabalha por semana?: ")
+      leia(horasS)
+
+      horasM <- horasS*4
+
+      salario <- horasM*ganhoH
+
+      escreva("Seu salário esse mês será ",salario," reais.")
+
+fimalgoritmo
+ 
+
+- Crie um algoritmo que receba uma temperatura em Fahrenheit e converta para Celsius, utilizando a fórmula: tempCelsius = 5*((tempFahren-32)/9)
+
+algoritmo "semnome"
+
+var
+   tempFahren, tempCelsius: real
+
+inicio
+      escreva("Me dê uma temperatura em Fahrenheit: ")
+      leia(tempFahren)
+
+      tempCelsius <- 5*(tempFahren-32)/9
+
+      escreva("A temperatura convertida é de ",tempCelsius," graus Celsius.")
+
+fimalgoritmo
+
+
+- Crie um algoritmo que receba a altura e o peso de uma pessoa e mostre seu Índice de Massa Corporal (IMC), utilizando a seguinte fórmula: imc = peso(kg)/altura(m)sobre2
+
+algoritmo "semnome"
+
+var
+   peso, altura, imc: real
+
+inicio
+      escreva("Qual sua altura em metros: ")
+      leia(altura)
+      
+      escreva("Qual seu peso em quilogramas: ")
+      leia(peso)
+      
+      imc <- peso/(altura*altura)
+      
+      escreva("Seu Índice de Massa Corporal (IMC) é: ",imc)
+
+fimalgoritmo
+
+
+- Zé Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (30 quilos) deve pagar uma multa de R$ 3,00 por quilo excedente. Zé precisa que você faça um algoritmo que leia a variável peso (peso de peixes) e calcule o excesso. Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que Zé deverá pagar. Imprima os dados do algoritmo com as mensagens adequadas.
+
+algoritmo "semnome"
+
+var
+   pesoPeixe, excesso, multa: real
+
+inicio
+      escreva("Zé, informe quantos quilos(kg) de peixe você pescou hoje: ")
+      leia(pesoPeixe)
+      
+      se (pesoPeixe > 30) entao
+         excesso <- pesoPeixe-30
+         multa <- excesso*3
+               escreva("Zé, o excesso em peso é: ",excesso," kg, e a multa é: ",multa," reais")
+
+      Fimse
+      
+fimalgoritmo
+
+
+- Crie um algoritmo que receba quanto você ganha por hora e quantas horas trabalhou no mês. O algoritmo deve calcular e mostrar o seu salário no referido mês, sabendo que serão descontados 11% do Imposto de Renda (IR) e mais 8% do INSS. No final o algoritmo deve apresentar:
+
+a) Salário bruto 
+b) Valor do imposto de renda 
+c) Valor do INSS
+d) Salário líquido (líquido = bruto – impostos)
+
+algoritmo "semnome"
+
+var
+   ganhoH, horasM, salarioB, salarioL, imposto, inss: real
+
+inicio
+      escreva("Quanto você ganha por hora: ")
+      leia(ganhoH)
+      
+      escreva("Quantas horas trabalhou no mês: ")
+      leia(horasM)
+      
+      salarioB <- horasM*ganhoH
+      imposto <- salarioB*0.11
+      inss <- salarioB*0.08
+      salarioL <- salarioB-imposto-inss
+      
+      escreval("Seu salário bruto este mês é de ",salarioB," reais.")
+      escreval("O valor descontado de Imposto de Renda este mês é de ",imposto," reais.")
+      escreval("O valor descontado de INSS este mês é de ",inss," reais.")
+      escreval("Seu salário líquido este mês (incluindo impostos) é de ",salarioL," reais.")
+
+fimalgoritmo
+
+
+
+
+ 
+
+
