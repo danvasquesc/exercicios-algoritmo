@@ -7,3 +7,6 @@ O Visualg é um programa que permite editar, interpretar e que também executa a
 
 ## 📌 Link para Instalação
 https://dicasdeprogramacao.com.br/download-visualg/
+
+
+### Com ❤️ por [Dan Vasques](https://github.com/danvasquesc) 
