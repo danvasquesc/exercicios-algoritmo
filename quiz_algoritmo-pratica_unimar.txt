@@ -1,0 +1,186 @@
+algoritmo "Quiz_Algoritmo"
+// Autor : Dan Vasques Carvalho (2024)
+var
+   resposta: caractere
+   pFinal, p1, p2, p3, p4, p5: inteiro
+inicio
+      pFinal <- 0
+      p1 <- 0
+      p2 <- 0
+      p3 <- 0
+      p4 <- 0
+      p5 <- 0
+
+      escreval("Olá! A partir de agora você participará de um QUIZ.")
+      escreval("")
+
+// Pergunta 01
+      escreval("Pergunta 01: O computador é:")
+      escreval("a)um dispositivo eletrônico capaz de processar dados.")
+      escreval("b)uma calculadora.")
+      escreval("c)um dispositivo que imprime documentos.")
+      escreval("")
+      leia(resposta)
+
+      se (resposta = "A") ou (resposta = "a") entao
+      escreval("Resposta certa! +10 pontos.")
+      p1 <- 10
+
+         senao
+              escreval("Resposta errada! Tente novamente: ")
+              escreval("")
+              leia(resposta)
+
+              se (resposta = "A") ou (resposta = "a") entao
+              escreval("Resposta certa! +5 pontos.")
+              p1 <- 5
+
+                    senao
+                         escreval("Resposta errada! 0 pontos.")
+                         p1 <- 0
+              Fimse
+       Fimse
+
+       pFinal <- p1
+       escreval("")
+
+// Pergunta 02
+      escreval("Pergunta 02: O que é um loop em programação?")
+      escreval("a)uma ferramenta de desenho.")
+      escreval("b)uma linguagem de programação.")
+      escreval("c)uma estrutura de repetição.")
+      escreval("")
+      leia(resposta)
+
+      se (resposta = "C") ou (resposta = "c") entao
+      escreval("Resposta certa! +10 pontos.")
+      p2 <- 10
+
+         senao
+              escreval("Resposta errada! Tente novamente: ")
+              escreval("")
+              leia(resposta)
+
+              se (resposta = "C") ou (resposta = "c") entao
+              escreval("Resposta certa! +5 pontos.")
+              p2 <- 5
+
+                    senao
+                         escreval("Resposta errada! 0 pontos.")
+                         p2 <- 0
+              Fimse
+       Fimse
+
+       pFinal <- (pFinal + p2)
+       escreval("")
+
+// Pergunta 03
+      escreval("Pergunta 03: O que são variáveis?")
+      escreval("a)repetir uma ação várias vezes.")
+      escreval("b)locais para armazenar e manipular dados.")
+      escreval("c)uma função matemática complexa.")
+      escreval("")
+      leia(resposta)
+
+      se (resposta = "B") ou (resposta = "b") entao
+      escreval("Resposta certa! +10 pontos.")
+      p3 <- 10
+
+         senao
+              escreval("Resposta errada! Tente novamente: ")
+              escreval("")
+              leia(resposta)
+
+              se (resposta = "B") ou (resposta = "b") entao
+              escreval("Resposta certa! +5 pontos.")
+              p3 <- 5
+
+                    senao
+                         escreval("Resposta errada! 0 pontos.")
+                         p3 <- 0
+              Fimse
+       Fimse
+
+       pFinal <- (pFinal + p3)
+       escreval("")
+
+// Pergunta 04
+      escreval("Pergunta 04: O que é um bug?")
+      escreval("a)um erro no código que causa comportamento inesperado.")
+      escreval("b)uma variável global.")
+      escreval("c)uma função que funciona corretamente.")
+      escreval("")
+      leia(resposta)
+
+      se (resposta = "A") ou (resposta = "a") entao
+      escreval("Resposta certa! +10 pontos.")
+      p4 <- 10
+
+         senao
+              escreval("Resposta errada! Tente novamente: ")
+              escreval("")
+              leia(resposta)
+
+              se (resposta = "A") ou (resposta = "a") entao
+              escreval("Resposta certa! +5 pontos.")
+              p4 <- 5
+
+                    senao
+                         escreval("Resposta errada! 0 pontos.")
+                         p4 <- 0
+              Fimse
+       Fimse
+
+       pFinal <- (pFinal + p4)
+       escreval("")
+
+// Pergunta 05
+      escreval("Pergunta 05: O que é uma estrutura de dados?")
+      escreval("a)Uma linguagem de programação popular.")
+      escreval("b)Uma operação de multiplicação avançada.")
+      escreval("c)Maneira de organizar e armazenar dados para facilitar a manipulação.")
+      escreval("")
+      leia(resposta)
+
+      se (resposta = "C") ou (resposta = "c") entao
+      escreval("Resposta certa! +10 pontos.")
+      p5 <- 10
+
+         senao
+              escreval("Resposta errada! Tente novamente: ")
+              escreval("")
+              leia(resposta)
+
+              se (resposta = "C") ou (resposta = "c") entao
+              escreval("Resposta certa! +5 pontos.")
+              p5 <- 5
+
+                    senao
+                         escreval("Resposta errada! 0 pontos.")
+                         p5 <- 0
+              Fimse
+       Fimse
+
+       pFinal <- (pFinal + p5)
+       escreval("")
+
+//Final do Quiz: resultado
+      se (pFinal >= 50) entao
+      escreval("Sua pontuação final: ",pFinal," - EXCELENTE!")
+
+         senao
+              se (pFinal >= 37) e (pFinal <= 49) entao
+              escreval("Sua pontuação final: ",pFinal," - ÓTIMO")
+
+              senao
+                   se(pFinal >= 25) e (pFinal <= 36) entao
+                   escreval("Sua pontuação final: ",pFinal," - BOM!")
+
+                   senao
+                        se(pFinal <= 24) entao
+                        escreval("Sua pontuação final: ",pFinal," - RUIM!")
+                        Fimse
+                   Fimse
+              Fimse
+       Fimse
+fimalgoritmo
