@@ -1,0 +1,16 @@
+- Faça um Programa que peça dois números e imprima a soma. 
+
+algoritmo "Dois_Números_Soma"
+var
+   n1, n2, soma: inteiro 
+inicio
+      escreval("Me dê um número")
+      leia(n1)
+
+      escreval("Me dê outro número")
+      leia(n2)
+
+      soma <- (n1+n2)
+
+      escreval("A soma dos dois números é: ", soma)
+fimalgoritmo
