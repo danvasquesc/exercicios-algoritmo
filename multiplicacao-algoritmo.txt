@@ -1,0 +1,16 @@
+- Faça um Programa que peça dois números e imprima a multiplicação entre eles
+
+algoritmo "Dois_Números_Multiplicacao"
+var
+   n1, n2, multiplicacao: inteiro
+inicio
+      escreval("Me dê um número")
+      leia(n1)
+
+      escreval("Me dê outro número")
+      leia(n2)
+
+      multiplicacao <- (n1*n2)
+
+      escreval("A multiplicação dos dois números é: ", multiplicacao)
+fimalgoritmo
