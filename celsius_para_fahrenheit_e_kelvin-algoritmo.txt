@@ -1,0 +1,24 @@
+algoritmo "Celsius_para_Fahrenheit_e_Kelvin"
+var
+   celsius, fahren, kelvin: real
+   resposta: caractere
+inicio
+      escreva("Digite a temperatura em Celsius (só o número): ")
+      leia(celsius)
+      escreval("")
+      
+      escreva("Qual conversão você deseja? F para Fahrenheit e K para Kelvin: ")
+      leia(resposta)
+      escreval("")
+      
+      se (resposta = "F") ou (resposta = "f") entao
+         fahren <-(celsius * 9 / 5) + 32
+                escreval(celsius, "°C é equivalente a ", fahren, "°F")
+                
+                senao
+                     se (resposta = "K") ou (resposta = "k") entao
+                        kelvin <- celsius + 273.15
+                               escreval(celsius, "°C é equivalente a ", kelvin,"K")
+                     fimse
+      fimse
+fimalgoritmo
