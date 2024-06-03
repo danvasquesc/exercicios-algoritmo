@@ -1,4 +1,4 @@
-- Faça um Programa que peça dois números e imprima a diferença entre os dois números.
+## Faça um Programa que peça dois números e imprima a diferença entre os dois números.
 
 algoritmo "Dois_Números_Subtração"
 
