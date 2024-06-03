@@ -1,0 +1,30 @@
+- Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas: 
+
+Para homens: (72.7*h) - 58 
+
+Para mulheres: (62.1*h) - 44.7 
+
+algoritmo "Peso_Ideal_Homem_Mulher"
+var
+   altura, pIdealH, pIdealM: real
+   genero: caractere
+inicio
+      escreval("Qual sua altura?")
+      leia(altura)
+
+      escreval("Qual seu gênero? (responda H para homem e M para mulher).")
+      leia(genero)
+
+      se (genero = "H") entao
+         pIdealH <- (72.7*altura)-58
+         	escreval("Seu peso ideal é ", pIdealH)
+
+         	senao
+              	se (genero = "M") entao
+                 pIdealM <- (62.1*altura)-44.7
+                 	escreval("Seu peso ideal é ", pIdealM)
+
+              	Fimse
+      Fimse
+
+fimalgoritmo
