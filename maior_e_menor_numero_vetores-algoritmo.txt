@@ -1,0 +1,29 @@
+Faça um programa que receba três números e diga qual é o maior e qual é o menor.
+
+algoritmo "Maior_e_Menor_Numero_Vetores"
+var
+   numeros: vetor[1..3] de real
+   i: inteiro
+   maior, menor: real
+inicio
+      para i de 1 ate 3 faca
+           escreva("Digite o ",i,"º número: ")
+           leia(numeros[i])
+      fimpara
+      
+      maior <- numeros[1]
+      menor <- numeros[1]
+      
+            para i de 2 ate 3 faca
+                 se (numeros[i] > maior) entao
+                    maior <- numeros[i]
+                 fimse
+                 
+                      se (numeros[i] < menor) entao
+                         menor <- numeros[i]
+                      fimse
+            fimpara
+
+      escreval("O maior número é: ",maior)
+      escreval("O menor número é: ",menor)
+fimalgoritmo
