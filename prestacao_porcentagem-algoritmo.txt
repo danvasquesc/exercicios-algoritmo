@@ -1,0 +1,24 @@
+- A prefeitura de Contagem abriu uma linha de crédito para os funcionários estatutários.
+O valor máximo da prestação não poderá ultrapassar 30% do salário bruto. Fazer um
+algoritmo que permita entrar com o salário bruto e o valor da prestação, e informar se
+o empréstimo pode ou não ser concedido. 
+
+algoritmo "Prestação_Porcentagem"
+var
+   salbruto, prestacao, porcento: real
+inicio
+      escreva("Digite o salário bruto: ")
+      leia(salbruto)
+      
+      escreva("Digite o valor da prestação: ")
+      leia(prestacao)
+      
+      porcento <- salbruto*0.3
+      
+      se (prestacao <= porcento) entao
+         escreval("Empréstimo pode ser concedido")
+         
+         senao
+              escreval("Empréstimo não pode ser concedido")
+      fimse
+fimalgoritmo
