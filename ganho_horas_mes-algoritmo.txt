@@ -1,0 +1,30 @@
+- Crie um algoritmo que receba quanto você ganha por hora e quantas horas trabalhou no mês. O algoritmo deve calcular e mostrar o seu salário no referido mês, sabendo que serão descontados 11% do Imposto de Renda (IR) e mais 8% do INSS. No final o algoritmo deve apresentar:
+
+a) Salário bruto 
+b) Valor do imposto de renda 
+c) Valor do INSS
+d) Salário líquido (líquido = bruto – impostos)
+
+algoritmo "ganho_horas_mes"
+
+var
+   ganhoH, horasM, salarioB, salarioL, imposto, inss: real
+
+inicio
+      escreva("Quanto você ganha por hora: ")
+      leia(ganhoH)
+      
+      escreva("Quantas horas trabalhou no mês: ")
+      leia(horasM)
+      
+      salarioB <- horasM*ganhoH
+      imposto <- salarioB*0.11
+      inss <- salarioB*0.08
+      salarioL <- salarioB-imposto-inss
+      
+      escreval("Seu salário bruto este mês é de ",salarioB," reais.")
+      escreval("O valor descontado de Imposto de Renda este mês é de ",imposto," reais.")
+      escreval("O valor descontado de INSS este mês é de ",inss," reais.")
+      escreval("Seu salário líquido este mês (incluindo impostos) é de ",salarioL," reais.")
+
+fimalgoritmo
