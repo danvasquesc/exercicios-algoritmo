@@ -1,0 +1,41 @@
+- Crie um programa que pergunte ao consumidor quantos litros ele deseja abastecer e imprima o preço final do valor na bomba, utilize Gasolina R$5,00, Etanol R$3.50, Gasolina Aditivada R$6.99.
+
+
+algoritmo "gasolina_etanol_preço"
+
+var
+   litro, precoT: real
+   combustivel: caractere
+   
+inicio
+      escreval("Bem-vindo ao Posto!")
+      escreval("Qual tipo de combustível você deseja?")
+      escreval("G para Gasolina - R$5,00")
+      escreval("E para Etanol - R$3,50")
+      escreval("GA para Gasolina Aditivada - R$6,99")
+      escreval("")
+      leia(combustivel)
+
+      escreval("")
+      escreval("Quantos litros deseja colocar?")
+      leia(litro)
+      escreval("")
+
+      se (combustivel = "G") entao
+         precoT <- (litro*5)
+         escreval("O valor total de abastecimento será: ", precoT," reais.")
+         
+         senao
+              se (combustivel = "E") entao
+                 precoT <- (litro*3.50)
+                 escreval("O valor total de abastecimento será: ", precoT," reais.")
+                 
+                 senao
+                      se (combustivel = "GA") entao
+                         precoT <- (litro*6.99)
+                         escreval("O valor total de abastecimento será: ", precoT," reais.")
+                         
+                      Fimse
+              Fimse
+      Fimse
+fimalgoritmo
