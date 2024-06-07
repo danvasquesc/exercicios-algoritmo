@@ -1,4 +1,4 @@
-- Crie um programa que pergunte ao consumidor quantos litros ele deseja abastecer e imprima o preço final do valor na bomba, utilize Gasolina R$5,00, Etanol R$3.50, Gasolina Aditivada R$6.99.
+## Crie um programa que pergunte ao consumidor quantos litros ele deseja abastecer e imprima o preço final do valor na bomba, utilize Gasolina R$5,00, Etanol R$3.50, Gasolina Aditivada R$6.99.
 
 
 algoritmo "gasolina_etanol_preço"
