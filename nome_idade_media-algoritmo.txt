@@ -1,0 +1,36 @@
+- Construa um programa que peça o nome e idade de 3 pessoas, escreva uma frase indicando quantos anos tem cada pessoa e no fim a média de idade. Crie uma frase que faça sentido.
+
+algoritmo "Nome_Idade_Média"
+
+var
+   nome1, nome2, nome3: caractere
+   idade1, idade2, idade3, media: real
+
+inicio
+      escreval("Qual o nome da primeira pessoa?")
+      leia(nome1)
+
+      escreval("Qual a idade?")
+      leia(idade1)
+
+      escreval("Qual o nome da segunda pessoa?")
+      leia(nome2)
+
+      escreval("Qual a idade?")
+      leia(idade2)
+
+      escreval("Qual o nome da terceira pessoa?")
+      leia(nome3)
+
+      escreval("Qual a idade?")
+      leia(idade3)
+
+      escreval(nome1," tem ",idade1," anos.")
+      escreval(nome2," tem ",idade2," anos.")
+      escreval(nome3," tem ",idade3," anos.")
+
+      media <- (idade1+idade2+idade3)/3
+
+      escreval("A média da idade de vocês é: ",media)
+
+fimalgoritmo 
