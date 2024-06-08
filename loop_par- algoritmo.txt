@@ -1,0 +1,14 @@
+- Imprimir os números pares de 0 a 20 usando um loop.
+
+algoritmo "loop_par"
+var
+   num: inteiro
+inicio
+      num <- 0
+      
+      enquanto (num <=20) faca
+               escreval(num)
+               num <- num+2
+      fimenquanto
+fimalgoritmo
+
