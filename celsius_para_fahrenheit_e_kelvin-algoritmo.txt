@@ -1,3 +1,4 @@
+// 
 algoritmo "Celsius_para_Fahrenheit_e_Kelvin"
 var
    celsius, fahren, kelvin: real
