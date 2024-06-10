@@ -1,4 +1,4 @@
-- Escreva um algoritmo que solicite ao usuário a entrada de 5 números, e que exiba a subtração desses números na tela.
+// Escreva um algoritmo que solicite ao usuário a entrada de 5 números, e que exiba a subtração desses números na tela.
 Após exibir a subtração, o programa deve mostrar também os números que o usuário digitou, um por linha.
 
 algoritmo "Vetores_Subtração"
