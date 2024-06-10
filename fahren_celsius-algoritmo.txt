@@ -1,4 +1,4 @@
-## Crie um algoritmo que receba uma temperatura em Fahrenheit e converta para Celsius, utilizando a fórmula: tempCelsius = 5*((tempFahren-32)/9)
+// Crie um algoritmo que receba uma temperatura em Fahrenheit e converta para Celsius, utilizando a fórmula: tempCelsius = 5*((tempFahren-32)/9)
 
 algoritmo "fahren_celsius"
 
