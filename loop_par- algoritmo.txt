@@ -1,4 +1,4 @@
-- Imprimir os números pares de 0 a 20 usando um loop.
+// Imprimir os números pares de 0 a 20 usando um loop.
 
 algoritmo "loop_par"
 var
