@@ -1,4 +1,4 @@
-- Crie um algoritmo que receba a altura e o peso de uma pessoa e mostre seu Índice de Massa Corporal (IMC), utilizando a seguinte fórmula: imc = peso(kg)/altura(m)sobre2
+// Crie um algoritmo que receba a altura e o peso de uma pessoa e mostre seu Índice de Massa Corporal (IMC), utilizando a seguinte fórmula: imc = peso(kg)/altura(m)sobre2
 
 algoritmo "IMC"
 
