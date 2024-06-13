@@ -1,4 +1,4 @@
-- Construa um programa que peça o nome e idade de 3 pessoas, escreva uma frase indicando quantos anos tem cada pessoa e no fim a média de idade. Crie uma frase que faça sentido.
+// Construa um programa que peça o nome e idade de 3 pessoas, escreva uma frase indicando quantos anos tem cada pessoa e no fim a média de idade. Crie uma frase que faça sentido.
 
 algoritmo "Nome_Idade_Média"
 
