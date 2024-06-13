@@ -1,4 +1,4 @@
-- Crie um algoritmo que receba um valor em metros e converta para centímetros.
+// Crie um algoritmo que receba um valor em metros e converta para centímetros.
 
 algoritmo "metros_centimetros"
 
