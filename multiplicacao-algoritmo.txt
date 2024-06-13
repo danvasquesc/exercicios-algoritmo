@@ -1,4 +1,4 @@
-## Faça um Programa que peça dois números e imprima a multiplicação entre eles
+// Faça um Programa que peça dois números e imprima a multiplicação entre eles
 
 algoritmo "Dois_Números_Multiplicacao"
 var
