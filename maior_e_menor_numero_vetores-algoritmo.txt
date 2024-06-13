@@ -1,4 +1,4 @@
-Faça um programa que receba três números e diga qual é o maior e qual é o menor.
+// Faça um programa que receba três números e diga qual é o maior e qual é o menor.
 
 algoritmo "Maior_e_Menor_Numero_Vetores"
 var
