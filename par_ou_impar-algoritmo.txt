@@ -1,4 +1,4 @@
-Faça um programa que receba um número e diga se ele é par ou ímpar.
+// Faça um programa que receba um número e diga se ele é par ou ímpar.
 
 
 algoritmo "Par_ou_Impar"
