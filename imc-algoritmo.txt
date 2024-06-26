@@ -1,8 +1,8 @@
 // Crie um algoritmo que receba a altura e o peso de uma pessoa e mostre seu Índice de Massa Corporal (IMC), utilizando a seguinte fórmula: imc = peso(kg)/altura(m)sobre2
 
 algoritmo "IMC"
-
 var
+// Declaração das variáveis.
    peso, altura, imc: real
 
 inicio
@@ -11,9 +11,11 @@ inicio
       
       escreva("Qual seu peso em quilogramas: ")
       leia(peso)
-      
+
+// Para saber o IMC do usuário, é necessário dividir a altura elevado a 2 pelo peso. 
+// Simplificando a operação, multiplique altura por altura e depois divida pelo peso. Lembre-se da ordem de precedência de operadores usando o parênteses.
       imc <- peso/(altura*altura)
       
-      escreva("Seu Índice de Massa Corporal (IMC) é: ",imc)
+      escreva("Seu Índice de Massa Corporal (IMC) é: ", imc)
 
 fimalgoritmo
