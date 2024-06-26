@@ -1,6 +1,6 @@
-// 
 algoritmo "Celsius_para_Fahrenheit_e_Kelvin"
 var
+// Declaração das variáveis.
    celsius, fahren, kelvin: real
    resposta: caractere
 inicio
@@ -11,11 +11,14 @@ inicio
       escreva("Qual conversão você deseja? F para Fahrenheit e K para Kelvin: ")
       leia(resposta)
       escreval("")
-      
+
+// Estrutura de decisão com operador lógico, gerando uma comparação composta "OU". 
+// Para converter o Celsius em Fahrenheit, utilizei a fórmula de conversão genérica.
       se (resposta = "F") ou (resposta = "f") entao
-         fahren <-(celsius * 9 / 5) + 32
+         fahren <-(celsius * 9 / 5) + 32                       // O parênteses vai indicar a ordem de precedência da operação
                 escreval(celsius, "°C é equivalente a ", fahren, "°F")
-                
+
+// Para converter o Celsius em Kelvin, utilizei a fórmula de conversão genérica.
                 senao
                      se (resposta = "K") ou (resposta = "k") entao
                         kelvin <- celsius + 273.15
