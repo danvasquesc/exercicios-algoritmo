@@ -2,8 +2,8 @@
 
 
 algoritmo "gasolina_etanol_preço"
-
 var
+// Declaração das variáveis.
    litro, precoT: real
    combustivel: caractere
    
@@ -21,19 +21,21 @@ inicio
       leia(litro)
       escreval("")
 
+// Estrutura de decisão para verificar e aplicar as operações de acordo com a escolha (decisão) do usuário.
+// Se o usuário escolher 'G', a qntde de litros que ele informou será multiplicada ao valor do litro da gasolina, e assim por diante.
       se (combustivel = "G") entao
          precoT <- (litro*5)
-         escreval("O valor total de abastecimento será: ", precoT," reais.")
+         escreval("O valor total de abastecimento será: ", precoT, " reais.")
          
          senao
               se (combustivel = "E") entao
                  precoT <- (litro*3.50)
-                 escreval("O valor total de abastecimento será: ", precoT," reais.")
+                 escreval("O valor total de abastecimento será: ", precoT, " reais.")
                  
                  senao
                       se (combustivel = "GA") entao
                          precoT <- (litro*6.99)
-                         escreval("O valor total de abastecimento será: ", precoT," reais.")
+                         escreval("O valor total de abastecimento será: ", precoT, " reais.")
                          
                       Fimse
               Fimse
