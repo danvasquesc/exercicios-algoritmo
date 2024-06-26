@@ -8,7 +8,8 @@ d) Salário líquido (líquido = bruto – impostos)
 algoritmo "ganho_horas_mes"
 
 var
-   ganhoH, horasM, salarioB, salarioL, imposto, inss: real
+// Declaração das variáveis.
+   ganhoH, horasM, salarioBruto, salarioLiq, imposto, inss: real
 
 inicio
       escreva("Quanto você ganha por hora: ")
@@ -16,15 +17,21 @@ inicio
       
       escreva("Quantas horas trabalhou no mês: ")
       leia(horasM)
+
+// Para descobrir o salário bruto basta multiplicar a qntde de horas que trabalhou e quanto ganha por cada hora.
+      salarioBruto <- horasM * ganhoH
+
+// Sabemos que o desconto mensal do IR é de 11% ao mês, basta transformar esse valor em decimal e multiplicar pelo salário bruto.
+// A mesma coisa se aplica ao INSS, que é de 8% ao mês.
+      imposto <- salarioBruto * 0.11
+      inss <- salarioBruto * 0.08
+
+// O salário liquido será a subtração do INSS e IF sob o salário bruto.
+      salarioLiq <- salarioBruto - imposto - inss
       
-      salarioB <- horasM*ganhoH
-      imposto <- salarioB*0.11
-      inss <- salarioB*0.08
-      salarioL <- salarioB-imposto-inss
-      
-      escreval("Seu salário bruto este mês é de ",salarioB," reais.")
-      escreval("O valor descontado de Imposto de Renda este mês é de ",imposto," reais.")
-      escreval("O valor descontado de INSS este mês é de ",inss," reais.")
-      escreval("Seu salário líquido este mês (incluindo impostos) é de ",salarioL," reais.")
+      escreval("Seu salário bruto este mês é de ", salarioBruto, " reais.")
+      escreval("O valor descontado de Imposto de Renda este mês é de ", imposto, " reais.")
+      escreval("O valor descontado de INSS este mês é de ", inss, " reais.")
+      escreval("Seu salário líquido este mês (incluindo impostos) é de ", salarioLiq, " reais.")
 
 fimalgoritmo
