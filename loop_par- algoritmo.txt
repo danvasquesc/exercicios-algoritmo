@@ -2,13 +2,19 @@
 
 algoritmo "loop_par"
 var
+// Declaração das variáveis.
    num: inteiro
 inicio
+// Inicialização do contador em zero para imprimir do 0 a 20.
       num <- 0
-      
+
+// Estrutura de repetição ENQUANTO para informar até quando haverá o loop. Assim que chegar em 20, o algoritmo encerra.
       enquanto (num <=20) faca
                escreval(num)
-               num <- num+2
+
+// É adicionado a variavel 'num' o número 2 para imprimir somente os números pares. 
+// Se o pedido fosse impar, bastasse alterar a inicialização do contador em 1, pois zero é par. 
+               num <- num + 2
       fimenquanto
 fimalgoritmo
 
