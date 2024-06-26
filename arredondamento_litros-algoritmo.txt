@@ -2,19 +2,28 @@
 
 
 algoritmo "arredondamento_litros"
+
+// Declaração das variáveis.
 var
-   area, litros, latas, precoT: real
+   area, litros, latas, precoT: real 
 
 inicio
-      escreval("Qual o tamanho em metros quadrados da área a ser pintada?")
+// Entrada e saída de dados.
+      escreval("Qual o tamanho em metros quadrados da área a ser pintada?") 
       leia(area)
 
-      litros <- area/3
-      latas <- 0
+// Calculo para ver qtde de litros necessários, dividindo a area já informada por 3, que é o rendimento da tinta.
+// Inicialização da variavel 'latas' por 0 para que mais pra frente adicionemos +1, buscando arredondar e sobrar lata, não faltar, pois 'litros' é real.
+      litros <- area/3         
+      latas <- 0                
 
-      se (litros >= 18) entao
-         latas <- int(litros / 18)+1
+// Estrutura de decisão para calcular quantas latas vamos precisar. A condição é necessária pois se a qntde de latas for maior que 1, será necessário arrendondar para cima, assim não faltando latas.
+// Para descobrir quantas latas vamos precisar: divida 'litros' por 18, pois é a qtde que vem em uma lata.
+// Tornar a variavel 'lata' inteiro com o comando "int", evitando pontos flutuantes e fazendo o arredondamento pra cima através do "+1".
+      se (litros >= 18) entao                
+         latas <- int(litros / 18)+1          
 
+// Se 'litros' for menor que 18, só irá precisar de 1 lata, pois 1 lata vem 18 litros.
          senao
               se (litros <18) entao
                  latas <- 1
@@ -22,6 +31,7 @@ inicio
               fimse
       fimse
 
+// Para calcular o preço total é só multiplicar a qntde de latas por 80, que é o valor de 1 lata.
       precoT <- latas*80
 
          escreval("Você deverá comprar",latas," latas de tinta.")
