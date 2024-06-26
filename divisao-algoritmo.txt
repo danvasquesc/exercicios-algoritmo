@@ -2,6 +2,7 @@
 
 algoritmo "Dois_Números_Divisão"
 var
+// Declaração das variáveis.
    n1, n2: inteiro
    divisao: real
 inicio
@@ -11,12 +12,13 @@ inicio
       escreval("Me dê outro número")
       leia(n2)
 
+// Estrutura de decisão para dividir somente números que sejam maior que 0, pois nenhum número pode ser dividido por zero.
       se(n1=0) ou (n2=0) entao
       escreval("Não pode ser zero, pois não é divisível")
 
       	senao
            divisao <- (n1/n2)
-           escreval("A divisão dos dois números é: ", divisao)
+           escreval("Os dois números divididos entre si é: ", divisao)
            
       Fimse
 fimalgoritmo
