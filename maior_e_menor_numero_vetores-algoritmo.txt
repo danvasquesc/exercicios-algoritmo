@@ -2,15 +2,20 @@
 
 algoritmo "Maior_e_Menor_Numero_Vetores"
 var
+// Declaração das variáveis. Utilização de VETOR para não precisar repetir 3 vezes o mesmo comando.
    numeros: vetor[1..3] de real
    i: inteiro
    maior, menor: real
 inicio
+
+// Estrutura de repetição PARA controlar o número de repetições, que são 3 no caso. 
+// A variavel 'i' é utilizada como contador. 
       para i de 1 ate 3 faca
            escreva("Digite o ",i,"º número: ")
            leia(numeros[i])
       fimpara
-      
+
+// Atribuição dos 3 números informados pelo usuário às variaveis 'maior' e 'menor', para 
       maior <- numeros[1]
       menor <- numeros[1]
       
