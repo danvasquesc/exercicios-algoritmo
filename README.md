@@ -2,7 +2,8 @@
 
 ## 📌 Proposta do projeto:
 
-Através da minha evolução em construção de algoritmos, busco na internet exercícios para fixação. A prática, na programação, é o que de fato auxilia na internalização dos conceitos, e por isso, criei este repositório para resolver exercícios e registrar todas as resoluções e evoluções do algoritmo e da minha lógica.
+Através da minha evolução em construção de algoritmos, busco na internet exercícios para fixação. A prática, na programação, é o que de fato auxilia na internalização dos conceitos, e por isso, criei este repositório para resolver exercícios e registrar todas as resoluções e evoluções do algoritmo e da minha lógica.<br>
+Para elucidar o raciocínio que tive durante a construção do algoritmo, deixo os comentários bem explicados junto ao código.
 
 <br>
 
@@ -30,6 +31,8 @@ Cada título de arquivo terá o resumo que envolve o que a questão pede, por ex
 O exercício solicita que encontre a média de três notas. Então o título será "media-algoritmo.txt". O item "media" é o que o exercicio pede, o item "algoritmo" é para deixar explicito que não se usa nenhuma linguagem de programação, somente a construção do algoritmo, e o item "txt" é o formato que salvo o arquivo de texto, através da utilização do Bloco de Notas da minha máquina.
 
 <br>
+
+### *Deixe seu pull requests para melhoria dos algoritmos*
 
 ---
 
