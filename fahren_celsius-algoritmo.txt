@@ -1,15 +1,16 @@
 // Crie um algoritmo que receba uma temperatura em Fahrenheit e converta para Celsius, utilizando a fórmula: tempCelsius = 5*((tempFahren-32)/9)
 
 algoritmo "fahren_celsius"
-
 var
+// Declaração das variáveis.
    tempFahren, tempCelsius: real
 
 inicio
       escreva("Me dê uma temperatura em Fahrenheit: ")
       leia(tempFahren)
 
-      tempCelsius <- 5*(tempFahren-32)/9
+// Fórmula informada no enunciado da questão.
+      tempCelsius <- 5*((tempFahren-32)/9)
 
       escreva("A temperatura convertida é de ",tempCelsius," graus Celsius.")
 
