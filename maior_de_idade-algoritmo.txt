@@ -2,12 +2,14 @@
 
 algoritmo "Maior_de_Idade"
 var
+// Declaração das variáveis.
    idade: inteiro
 inicio
       escreva("Digite sua idade: ")
       leia(idade)
       escreva("")
 
+// Estrutura de decisão para diferenciar se o usuário é menor de idade ou não. Se for, verdadeiro, se não, falso.
       se (idade >=18) entao
          escreva("Você é maior de idade.")
          
