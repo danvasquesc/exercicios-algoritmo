@@ -8,13 +8,16 @@ Acima de 59 anos: idoso.
 
 algoritmo "Faixa_Etária"
 var
+// Declaração das variáveis.
    ano, idade: inteiro
 inicio
       escreva("Digite seu ano de nascimento: ")
       leia(ano)
-      
+
+// Para descobrir a idade atual de um usuário, subtraia o ano atual com o ano de nascimento.
       idade <- 2024-ano
-      
+
+// Estrutura de decisão para enquadrar a idade do usuário de acordo com sua faixa etária.
       se (idade <=12) entao
          escreva("Sua faixa etária é criança.")
          
