@@ -1,4 +1,5 @@
-# 👾 Exercícios de Algoritmo e Lógica de Programação.
+# 📂 Exercícios de Algoritmo e Lógica de Programação
+<br>
 
 ## 📌 Proposta do projeto:
 
@@ -8,13 +9,14 @@ Para elucidar o raciocínio que tive durante a construção do algoritmo, deixo 
 <br>
 
 ## 📌 Ferramenta utilizada e como instalar:
+![Visualg](https://img.shields.io/badge/Visualg-007C7C?style=for-the-badge&logo=Visualg&logoColor=white)
 
 Para a construção dos algoritmos, utilizei o programa Visualg 2.5, que permite editar, interpretar e executar algoritmos em português como um "programa" normal de computador.
 O Visualg possui recursos como simulação da "tela" do computador, visualização de variáveis, "breakpoints", ajuda on-line, impressão dos fontes e outras características que auxiliam o aprendizado das técnicas de programação.
 
 Para utilizar basta acessar o link abaixo, escolher a versão que você deseja (2.5 ou 3.0), fazer o download e praticar.
 
-[Download do Visualg](https://dicasdeprogramacao.com.br/download-visualg/)
+[Download](https://dicasdeprogramacao.com.br/download-visualg/)
 
 <br>
 
@@ -31,8 +33,6 @@ Cada título de arquivo terá o resumo que envolve o que a questão pede, por ex
 O exercício solicita que encontre a média de três notas. Então o título será "media-algoritmo.txt". O item "media" é o que o exercicio pede, o item "algoritmo" é para deixar explicito que não se usa nenhuma linguagem de programação, somente a construção do algoritmo, e o item "txt" é o formato que salvo o arquivo de texto, através da utilização do Bloco de Notas da minha máquina.
 
 <br>
-
-### *Deixe seu pull requests para melhoria dos algoritmos*
 
 ---
 
